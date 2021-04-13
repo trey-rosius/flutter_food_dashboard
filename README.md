@@ -1,6 +1,6 @@
 # Flutter food_dashboard
 
-A serverless mobile e-commerce application built with AWS.
+A serverless mobile application built with AWS and Flutter.
 Actually, it's just a sample application, show casing the speed at which anybody can build full stack applications using Flutter and AWS. 
 Here's a link to the complete blog post describing how this application was built.
 
