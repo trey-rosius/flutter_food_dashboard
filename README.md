@@ -1,16 +1,18 @@
-# food_dashboard
+# Flutter food_dashboard
 
-A new Flutter application.
+A serverless mobile e-commerce application built with AWS.
+Actually, it's just a sample application, show casing the speed at which anybody can build full stack applications using Flutter and AWS. 
+Here's a link to the complete blog post describing how this application was built.
 
-## Getting Started
+https://phatrabbitapps.com/how-to-build-serverless-jamstack-apps-with-aws-vuenuxt-and-netlify-part-1
 
-This project is a starting point for a Flutter application.
+AWS Services used
+- [x] Lambda
+- [x] Api gateway
+- [x] Dynamo DB
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Here are the screens for the applications
+
+![alt text](https://raw.githubusercontent.com/trey-rosius/flutter_food_dashboard/master/assets/screenshot.png)
