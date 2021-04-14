@@ -1,15 +1,15 @@
 
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:food_dashboard/config.dart';
+
 import 'package:http/http.dart' as http;
-import 'package:http/testing.dart';
+
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
 
 import '../lib/api.dart';
-import '../lib/home_screen.dart';
-import '../lib/main.dart';
+
+
 import '../lib/model/order.dart';
 
 
@@ -22,10 +22,6 @@ class MockitoClient extends Mock implements http.Client{
 }
 void main(){
 
-  Widget createHomeScreen() =>  MaterialApp(
-    home: HomeScreen(),
-
-  );
 group('fetch orders',(){
   test('returns a list of orders if http call completes successfully', () async{
 
@@ -68,14 +64,8 @@ group('fetch orders',(){
     expect(fetchOrders(mockitoClient), throwsException);
   });
 
-  group('Home Page Widget Tests', () {
-    testWidgets('Testing Scrolling', (tester) async {
-      await tester.pumpWidget(createHomeScreen());
-      await tester.fling(find.byType(ListView), Offset(0, -200), 3000);
-      await tester.pumpAndSettle();
 
-    });
-  });
+
 });
 
 
