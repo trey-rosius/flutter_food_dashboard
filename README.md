@@ -6,6 +6,10 @@ Here's a link to the complete blog post describing how this application was buil
 
 https://phatrabbitapps.com/how-to-build-serverless-jamstack-apps-with-aws-vuenuxt-and-netlify-part-1
 
+https://phatrabbitapps.com/how-to-build-a-serverless-application-with-aws-and-flutter
+
+https://phatrabbitapps.com/how-to-build-serverless-jamstack-apps-with-aws-vuenuxt-and-netlify-part-2
+
 AWS Services used
 - [x] Lambda
 - [x] Api gateway
