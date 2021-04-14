@@ -206,7 +206,11 @@ class _HomeScreenState extends State<HomeScreen> {
               }
 
               // By default, show a loading spinner.
-              return CircularProgressIndicator();
+              return Container(
+                  height: 40,
+                  width: 40,
+
+                  child: Center(child: CircularProgressIndicator()));
             },
           ))
         ],
